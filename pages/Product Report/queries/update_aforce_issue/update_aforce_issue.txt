@@ -1,0 +1,14 @@
+UPDATE public."global_issues"
+SET
+	github_issue_id = {{this.params.githubLink}},
+	author = '{{appsmith.user.email}}',
+	title = '{{this.params.title}}',
+	description = '{{this.params.description}}',
+	labels = '{{"{" + (this.params.labels ?? []).join(",") + "}"}}',
+	type = '{{this.params.type}}',
+	answer = '{{this.params.answer}}',
+	link = '{{this.params.link}}',
+	states = '{{"{" + (this.params.actions ?? []).join(",") + "}"}}',
+	priority_status = '{{this.params.priority_status}}'
+WHERE
+	id = {{Aforce_Issue_Table.selectedRow.id}};

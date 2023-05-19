@@ -1,0 +1,9 @@
+UPDATE public."appsmith_team" SET
+		"name" = '{{update_form.fieldState.name.isVisible ? update_form.formData.name : update_form.sourceData.name}}',
+		"email" = '{{update_form.fieldState.email.isVisible ? update_form.formData.email : update_form.sourceData.email}}',
+    "slack_id" = '{{update_form.fieldState.slack_id.isVisible ? update_form.formData.slack_id : update_form.sourceData.slack_id}}',
+		"github_id" = '{{update_form.fieldState.github_id.isVisible ? update_form.formData.github_id : update_form.sourceData.github_id}}',
+		"linkedin_id" = '{{update_form.fieldState.linkedin_id.isVisible ? update_form.formData.linkedin_id : update_form.sourceData.linkedin_id}}',
+		"function" = '{{update_form.fieldState.function.isVisible ? update_form.formData.function : update_form.sourceData.function}}',
+		"pod" = '{{update_form.fieldState.pod.isVisible ? update_form.formData.pod : update_form.sourceData.pod}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

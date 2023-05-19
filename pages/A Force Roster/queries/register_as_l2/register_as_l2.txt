@@ -1,0 +1,3 @@
+insert into aforce_roster(hero_id, start_date, end_date, support_team, pod) values (
+{{this.params.hero_id}}, {{this.params.start_date}}, {{this.params.end_date}}, {{this.params.support_team}}, {{this.params.pod}}
+);

@@ -1,0 +1,9 @@
+select
+		count(*),
+		upvote.author as author
+from
+    aforce_issue_upvote as upvote
+where
+		{{FiltersManager.getDateRangeFilter('upvote.created_at')}}
+group by author
+order by count desc;

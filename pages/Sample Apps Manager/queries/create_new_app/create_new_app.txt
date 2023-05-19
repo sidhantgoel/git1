@@ -1,0 +1,18 @@
+INSERT INTO public."sample_apps" (
+	"title", 
+	"description",
+	"link", 
+	"author",
+	"status",
+	"categories",
+	"tags"
+)
+VALUES (
+				{{upsert_title.text}}, 
+				{{upsert_description.text}}, 
+				{{upsert_link.text}}, 
+				{{appsmith.user.email}},
+				{{upsert_status.selectedOptionValue}},
+				{{upsert_category.selectedOptionValue}},
+				{{upsert_tags.selectedOptionValues.join(',')}}
+);

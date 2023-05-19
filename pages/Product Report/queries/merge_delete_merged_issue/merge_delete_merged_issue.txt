@@ -1,0 +1,1 @@
+delete from global_issues where id = {{this.params.child_id}}

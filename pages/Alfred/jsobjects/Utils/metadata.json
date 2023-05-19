@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Utils",
+    "pageId": "Alfred",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Alfred_Utils",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_62860510309fd93a9bf18944"
+}

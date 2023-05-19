@@ -1,0 +1,2 @@
+INSERT INTO public."product_comments" ("comment", "author", "issue_id")
+  VALUES ('{{this.params.comment}}', '{{appsmith.user.email}}', {{this.params.issue_id}});

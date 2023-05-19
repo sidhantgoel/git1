@@ -1,0 +1,1 @@
+SELECT * FROM public."appsmith_team" WHERE LOWER(email) = LOWER({{appsmith.user.email}});

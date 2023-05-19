@@ -1,0 +1,1 @@
+SELECT * from appsmith_team where active = true and (function = 'FE Engineering' or function = 'BE Engineering') ORDER BY pod;

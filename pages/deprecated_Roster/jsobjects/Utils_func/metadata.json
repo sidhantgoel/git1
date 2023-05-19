@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Utils_func",
+    "pageId": "deprecated_Roster",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "deprecated_Roster_Utils_func",
+  "deleted": false,
+  "gitSyncId": "61cd5be2a4437918c01f87af_61dc15b86bd5757f166ccebd"
+}

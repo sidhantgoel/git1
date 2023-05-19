@@ -1,0 +1,28 @@
+INSERT INTO public."global_issues" (
+    github_issue_id,
+    author,
+    created_at,
+    title,
+    description,
+    labels,
+    type,
+    answer,
+    link,
+    states,
+    priority_status,
+    state
+)
+VALUES (
+    {{this.params.githubLink}},
+    '{{appsmith.user.email}}',
+    now(),
+    '{{this.params.title}}',
+    '{{this.params.description}}',
+    '{{"{" + (this.params.labels ?? []).join(",") + "}"}}',
+    '{{this.params.type}}',
+    '{{this.params.answer}}',
+    '{{this.params.link}}',
+    '{{"{" + (this.params.actions ?? []).join(",") + "}"}}',
+    '{{this.params.priority_status}}',
+    'Opened'
+);

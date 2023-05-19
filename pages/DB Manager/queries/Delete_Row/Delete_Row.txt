@@ -1,0 +1,1 @@
+DELETE FROM {{Select1.selectedOptionValue}} where issue_id = 131;

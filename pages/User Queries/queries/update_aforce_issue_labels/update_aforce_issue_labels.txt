@@ -1,0 +1,5 @@
+UPDATE public."global_issues"
+SET
+labels = '{{"{" + (this.params.issue_labels ?? []).join(",") + "}"}}'
+WHERE
+id = {{this.params.issue_id}};

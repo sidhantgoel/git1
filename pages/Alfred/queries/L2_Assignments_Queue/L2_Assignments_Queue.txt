@@ -1,0 +1,10 @@
+SELECT t2.id, t2.email, t2.name, t2.pod,
+CASE WHEN t1.latest is NULL THEN '2022-05-23' ELSE t1.latest END,
+CASE WHEN t1.count is NULL THEN 0 ELSE t1.count END
+FROM
+(SELECT appsmith_team.email, count(appsmith_team.email), MAX (aforce_roster.start_date) as latest
+FROM aforce_roster inner join appsmith_team on aforce_roster.hero_id = appsmith_team.id WHERE aforce_roster.support_team = 'l2' and aforce_roster.start_date >= '2022-05-23' and appsmith_team.active = true
+GROUP BY appsmith_team.email ORDER BY count) as t1 
+RIGHT JOIN 
+(SELECT * from appsmith_team where active = true and (function = 'FE Engineering' or function = 'BE Engineering') ORDER BY pod) as t2
+on t1.email = t2.email ORDER BY pod, latest, count, email;

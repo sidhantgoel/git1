@@ -1,0 +1,11 @@
+UPDATE public."appsmith_team" SET
+		"name" = '{{insert_form.formData.name}}',
+		"email" = '{{insert_form.formData.email}}',
+    "slack_id" = '{{insert_form.formData.slack_id}}',
+		"github_id" = '{{insert_form.formData.github_id}}',
+		"linkedin_id" = '{{insert_form.formData.linkedin_id}}',
+		"function" = '{{insert_form.formData.function}}',
+		"pod" = '{{insert_form.formData.pod}}',
+		"active" = {{insert_form.formData.active}},
+		"dateofbirth"= '{{insert_form.formData.dateofbirth}}'
+	WHERE "id" = {{data_table.selectedRow.id}};

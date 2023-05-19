@@ -1,0 +1,8 @@
+UPDATE public."global_issues"
+SET
+title = '{{this.params.title}}',
+type = '{{this.params.type}}',
+answer = '{{this.params.answer}}',
+states = '{{"{" + (this.params.actions ?? []).join(",") + "}"}}'
+WHERE
+id = {{this.params.id}};

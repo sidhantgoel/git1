@@ -1,0 +1,6 @@
+select
+		count(*)
+from
+    aforce_issue_upvote as upvote
+WHERE 
+		{{FiltersManager.getDateRangeFilter('upvote.created_at')}};

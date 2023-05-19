@@ -1,0 +1,11 @@
+INSERT INTO aforce_heroes
+  (email, name, registration_date)
+VALUES
+	{{ 
+		function() {
+			const arr1 = Utils_func.csvToArr();
+			return arr1.map((row) => { 
+				return "('" + (row["email"] || "").toLowerCase() + "'," + "'" + (row["email"] || "").split("@")[0] + "','" + moment().format("YYYY-MM-DD") + "')";
+			}).join(",")
+		}();
+	}}

@@ -1,0 +1,12 @@
+INSERT INTO aforce_issue_upvote
+  (link, comment, author, created_at, comm_status, issue_id, closed_at)
+VALUES
+  (
+    '{{ this.params.upvote_link }}',
+    '{{ this.params.upvote_comment }}',
+		'{{ appsmith.user.email }}',
+		now(),
+		'{{ this.params.upvote_status }}',
+		{{this.params.issue_id}},
+		now()
+  );

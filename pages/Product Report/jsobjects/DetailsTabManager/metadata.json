@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "DetailsTabManager",
+    "pageId": "Product Report",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "tabs",
+        "value": "['Details', 'Upvote', 'PM Comments', 'New Upvote', 'New Comment']"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Product Report_DetailsTabManager",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_625d029b0d3d384069c1e51b"
+}

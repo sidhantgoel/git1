@@ -1,0 +1,1 @@
+SELECT count(*) FROM public."sample_apps";

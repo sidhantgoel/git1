@@ -1,0 +1,2 @@
+INSERT INTO aforce_issue_upvote (link, comment, author, issue_id, comm_status, created_at)
+SELECT link, description, author, id, issue_status, created_at FROM global_issues WHERE id > 1135;

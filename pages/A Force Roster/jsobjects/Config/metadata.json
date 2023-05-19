@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "Config",
+    "pageId": "A Force Roster",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "pods",
+        "value": "[\"New Developers Pod\", \"Team Managers Pod\", \"BE Coders Pod\", \"FE Coders Pod\", \"App Viewers Pod\", \"UI Builders Pod\"]"
+      },
+      {
+        "name": "l1Functions",
+        "value": "[\"Engineering\", \"Product\", \"Quality\", \"Design\"]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "A Force Roster_Config",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_62868f97309fd93a9bf1bedf"
+}

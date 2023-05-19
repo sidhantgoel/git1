@@ -1,0 +1,1 @@
+SELECT * FROM aforce_roster where support_team = 'l2' ORDER BY id desc limit 1;

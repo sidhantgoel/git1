@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "ForkHelper",
+    "pageId": "Sample Apps Manager",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Sample Apps Manager_ForkHelper",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_624c424151a8863d6c4025c5"
+}

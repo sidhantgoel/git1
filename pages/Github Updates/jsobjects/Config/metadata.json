@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "Config",
+    "pageId": "Github Updates",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "labels",
+        "value": "[{\n  label: \"App Viewers Pod\",\n  value: \"App Viewers Pod\"\n}, {\n  label: \"UI Builders Pod\",\n  value: \"UI Builders Pod\"\n}, {\n  label: \"Team Managers Pod\",\n  value: \"Team Managers Pod\"\n}, {\n  label: \"FE Coders Pod\",\n  value: \"FE Coders Pod\"\n}, {\n  label: \"BE Coders Pod\",\n  value: \"BE Coders Pod\"\n}, {\n  label: \"New Developers Pod\",\n  value: \"New Developers Pod\"\n}]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Github Updates_Config",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_623821c94d9aea1b062ae231"
+}

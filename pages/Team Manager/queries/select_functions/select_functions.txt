@@ -1,0 +1,1 @@
+SELECT function FROM public."appsmith_team" group by function;

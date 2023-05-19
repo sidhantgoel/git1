@@ -1,0 +1,1 @@
+insert into aforce_heroes(email, name, registration_date) values({{appsmith.user.email}}, {{appsmith.user.name}}, {{moment().format("YYYY-MM-DD")}})

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "TimelineManager",
+    "pageId": "Timeline",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Timeline_TimelineManager",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_624adecc804c3a1a6de6b99c"
+}

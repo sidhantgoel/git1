@@ -1,0 +1,8 @@
+UPDATE public."aforce_issue_upvote"
+SET
+link = '{{this.params.link}}',
+comment = '{{this.params.comment}}',
+comm_status = '{{this.params.comm_status}}',
+closed_at = 'now()'
+WHERE
+id = {{this.params.id}};

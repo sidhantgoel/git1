@@ -1,0 +1,1 @@
+SELECT * FROM aforce_heroes where email = {{appsmith.user.email}} limit 1

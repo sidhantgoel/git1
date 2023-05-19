@@ -1,0 +1,2 @@
+DELETE FROM public."product_comments"
+  WHERE id = {{this.params.id}};

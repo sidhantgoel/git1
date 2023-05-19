@@ -1,0 +1,1 @@
+SELECT aforce_roster.*, appsmith_team.name, appsmith_team.email FROM aforce_roster inner join appsmith_team on aforce_roster.hero_id = appsmith_team.id WHERE support_team = 'l2' ORDER BY start_date desc LIMIT 10

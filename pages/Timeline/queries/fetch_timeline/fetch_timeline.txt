@@ -1,0 +1,26 @@
+SELECT 
+upvote.id as id,
+upvote.author as author,
+upvote.link as link,
+upvote.comment as comment,
+upvote.comm_status as comm_status,
+upvote.created_at as created_at,
+upvote.issue_id as issue_id,
+upvote.closed_at as closed_at,
+issues.title as title,
+issues.type as type,
+issues.states as actionItems,
+issues.answer as answer,
+COALESCE (github.total_reactions, 0) as reaction_count,
+COALESCE(github.unique_commentors, 0) as comment_count,
+github.issue_number as g_no
+FROM 
+	aforce_issue_upvote as upvote
+	LEFT JOIN global_issues as issues ON upvote.issue_id = issues.id
+	LEFT JOIN github_issues as github ON issues.github_issue_id = github.id
+{{QueryManager.getTimeLineCondition()}}
+GROUP BY
+	upvote.id,
+	issues.id,
+	github.id
+ORDER BY created_at DESC OFFSET {{(Aforce_Timeline_Table.pageNo - 1) * Aforce_Timeline_Table.pageSize}} LIMIT {{Aforce_Timeline_Table.pageSize}};

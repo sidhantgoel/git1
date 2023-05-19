@@ -1,0 +1,28 @@
+{
+  "unpublishedCollection": {
+    "name": "Config",
+    "pageId": "Sample Apps Manager",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "AppCategories",
+        "value": "[\"Framework\", \"Forms\", \"Queries/APIs\", \"Widgets\", \"JS Promises/Async Await\", \"Utility\", \"Date-Time\", \"UI Components\", \"Pagination\", \"Table\", \"Navigation\", \"Charts\", \"Bulk insert/update\", \"None\"]"
+      },
+      {
+        "name": "AppTags",
+        "value": "[\"Framework\", \"Forms\", \"Queries/APIs\", \"Widgets\", \"JS Promises/Async Await\", \"Utility\", \"Date-Time\", \"UI Components\", \"Pagination\", \"Table\", \"Navigation\", \"Charts\", \"Bulk insert/update\", \"Store\", \"Modal Widget\", \"Text Widget\", \"Select Widget\"]"
+      },
+      {
+        "name": "States",
+        "value": "[\"Requested\", \"Needs Revamp\", \"Built\", \"Published\", \"None\"]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Sample Apps Manager_Config",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_6242d5f3c99df2369931ba1b"
+}

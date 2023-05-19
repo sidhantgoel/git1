@@ -1,0 +1,1 @@
+SELECT DISTINCT start_date FROM aforce_roster inner join aforce_heroes on aforce_roster.hero_id = aforce_heroes.id ORDER BY start_date desc LIMIT 5;

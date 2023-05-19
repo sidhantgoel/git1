@@ -1,0 +1,8 @@
+CREATE TABLE aforce_git_mapping
+(
+  id serial PRIMARY KEY,
+  author TEXT NOT NULL,
+  created_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP NOT NULL,
+  issue_id INT NOT NULL,
+	github_id INT NOT NULL
+);

@@ -1,0 +1,16 @@
+SELECT 
+	count(*),
+	tbl.type,
+	tbl.unset_labels
+FROM (
+	select *, unnest(labels) as unset_labels
+  from aforce_issue_upvote as upvote
+	LEFT JOIN global_issues as issues ON upvote.issue_id = issues.id
+	WHERE
+	{{FiltersManager.getDateRangeFilter('upvote.created_at')}}
+) tbl
+WHERE
+	tbl.unset_labels ilike '%pod%'
+GROUP BY
+	tbl.unset_labels,
+	tbl.type

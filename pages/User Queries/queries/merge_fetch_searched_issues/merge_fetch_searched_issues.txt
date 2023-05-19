@@ -1,0 +1,1 @@
+select id, github_issue_id, title from global_issues where title ilike {{ "%" + mergeIntoInput.filterText + "%" }} limit 20;

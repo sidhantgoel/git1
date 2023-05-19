@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Helper",
+    "pageId": "Sample Apps Manager",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Sample Apps Manager_Helper",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_6242c125c99df2369931b6da"
+}

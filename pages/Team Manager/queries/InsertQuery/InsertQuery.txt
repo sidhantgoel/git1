@@ -1,0 +1,22 @@
+INSERT INTO public."appsmith_team" (
+	"name",
+	"email",
+	"slack_id",
+	"github_id",
+	"linkedin_id",
+	"function",
+	"pod",
+	"active",
+	"dateofbirth"
+)
+VALUES (
+	'{{insert_form.formData.name}}',
+	'{{insert_form.formData.email}}',
+	'{{insert_form.formData.slack_id}}',
+	'{{insert_form.formData.github_id}}',
+	'{{insert_form.formData.linkedin_id}}',
+	'{{insert_form.formData.function}}',
+	'{{insert_form.formData.pod}}',
+	{{insert_form.formData.active}},
+	'{{insert_form.formData.dateofbirth}}'
+);

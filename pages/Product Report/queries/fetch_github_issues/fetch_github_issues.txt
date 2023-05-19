@@ -1,0 +1,1 @@
+select id, title, issue_number from github_issues where title ilike {{ "%" + this.params.searchText + "%" }} or issue_number ::text ilike {{ "%" + this.params.searchText + "%" }} order by github_issues.created_date desc limit 10;

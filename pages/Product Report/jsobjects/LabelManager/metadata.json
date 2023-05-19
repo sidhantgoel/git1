@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "LabelManager",
+    "pageId": "Product Report",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Product Report_LabelManager",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_625e84c70d3d384069c6d71c"
+}

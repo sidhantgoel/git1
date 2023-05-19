@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "QueryManager",
+    "pageId": "Team Manager",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Team Manager_QueryManager",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_62de67cc1d816b5fddf32c19"
+}

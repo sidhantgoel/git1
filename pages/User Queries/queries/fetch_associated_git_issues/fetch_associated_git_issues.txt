@@ -1,0 +1,1 @@
+select github_num as num, aforce_git_mapping.author as author from aforce_git_mapping join global_issues on global_issues.id = aforce_git_mapping.issue_id where aforce_git_mapping.issue_id = {{this.params.id}}

@@ -1,0 +1,6 @@
+SELECT 
+   * 
+FROM 
+   information_schema.columns
+WHERE table_name = {{Select1.selectedOptionValue}}
+ORDER BY table_name ASC;

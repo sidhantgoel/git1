@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "SupportIssuesHelper",
+    "pageId": "Github Updates",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Github Updates_SupportIssuesHelper",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_623832a24d9aea1b062ae3b7"
+}

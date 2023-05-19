@@ -1,0 +1,1 @@
+SELECT * FROM public."appsmith_team" LIMIT 10;

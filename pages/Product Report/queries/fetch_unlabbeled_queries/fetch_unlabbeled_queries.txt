@@ -1,0 +1,13 @@
+SELECT id, labels
+FROM global_issues 
+WHERE (
+  0 < (
+    SELECT COUNT(*) 
+    FROM unnest(labels) AS label
+	)) and (
+  0 = (
+    SELECT COUNT(*) 
+    FROM unnest(labels) AS label
+		WHERE label ilike '%Pod%'
+  )
+);

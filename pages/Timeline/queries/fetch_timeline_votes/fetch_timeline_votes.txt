@@ -1,0 +1,11 @@
+select
+    issues.id,
+		count(issues.id)
+from
+    global_issues as issues
+    inner join aforce_issue_upvote as upvotes on issues.id = upvotes.issue_id
+where
+    issues.id IN (
+        {{ fetch_timeline.data.map((data) => data.issue_id).join(",") }}
+    )
+group by issues.id;

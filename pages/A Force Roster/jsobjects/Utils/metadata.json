@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Utils",
+    "pageId": "A Force Roster",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "A Force Roster_Utils",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_62867de2309fd93a9bf1b885"
+}

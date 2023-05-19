@@ -1,0 +1,2 @@
+DELETE FROM public."aforce_issue_upvote"
+  WHERE id = {{this.params.id}};

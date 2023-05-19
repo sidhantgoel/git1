@@ -1,0 +1,28 @@
+SELECT * FROM
+(
+SELECT 
+	count(*) as r,
+	issues.type as r_type
+FROM 
+	aforce_issue_upvote as upvote
+	LEFT JOIN global_issues as issues ON upvote.issue_id = issues.id
+WHERE
+	{{FiltersManager.getDateRangeFilter('upvote.created_at')}}
+	AND {{FiltersManager.getResolvedStatusFilter('comm_status')}}
+GROUP BY
+	issues.type
+) as Tr
+FULL OUTER JOIN
+(
+SELECT 
+	count(*) as b,
+	issues.type as b_type
+FROM 
+	aforce_issue_upvote as upvote
+	LEFT JOIN global_issues as issues ON upvote.issue_id = issues.id
+WHERE
+	{{FiltersManager.getDateRangeFilter('upvote.created_at')}}
+	AND {{FiltersManager.getBacklogStatusFilter('comm_status')}}
+GROUP BY
+	issues.type
+) as Tb ON Tr.r_type = Tb.b_type;

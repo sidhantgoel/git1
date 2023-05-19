@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "EventsManager",
+    "pageId": "User Queries",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "User Queries_EventsManager",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_62494b9797dde1526a1320a1"
+}

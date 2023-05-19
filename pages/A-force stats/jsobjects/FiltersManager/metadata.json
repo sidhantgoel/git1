@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "FiltersManager",
+    "pageId": "A-force stats",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "A-force stats_FiltersManager",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_624df04851a8863d6c404e8f"
+}

@@ -1,0 +1,1 @@
+update aforce_issue_upvote set issue_id = {{this.params.parent_id}} where issue_id = {{this.params.child_id}}

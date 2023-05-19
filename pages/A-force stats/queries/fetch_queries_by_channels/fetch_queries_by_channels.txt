@@ -1,0 +1,9 @@
+select
+		count(*),
+		(regexp_match(upvote.link, '(intercom|discord|appsmith)'))[1] as channel
+from
+    aforce_issue_upvote as upvote
+where
+		{{FiltersManager.getDateRangeFilter('upvote.created_at')}}
+group by channel
+order by channel asc;

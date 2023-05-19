@@ -1,0 +1,4 @@
+SELECT {{Table_Schema_Table.selectedRows.map(row => row.column_name).join(', ')}}
+FROM {{Select1.selectedOptionValue}}
+WHERE {{Table_Schema_Table.selectedRows.filter(row => row.column_name != 'id' && row.data_type === 'text' ).map(row => `${row.column_name} IS NOT NULL AND ${row.column_name} != 'None'`).join(' AND ')}}
+ORDER BY id DESC;

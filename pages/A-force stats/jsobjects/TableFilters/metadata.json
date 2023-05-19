@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "TableFilters",
+    "pageId": "A-force stats",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "A-force stats_TableFilters",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_624de9f951a8863d6c404d83"
+}

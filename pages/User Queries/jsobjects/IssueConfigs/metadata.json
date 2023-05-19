@@ -1,0 +1,44 @@
+{
+  "unpublishedCollection": {
+    "name": "IssueConfigs",
+    "pageId": "User Queries",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "issueTypes",
+        "value": "{\n  \"All\": \"\",\n  \"Feature\": \"🧩\",\n  \"Bug\": \"🐞\",\n  \"Question\": \"❓\",\n  \"Troubleshooting\": \"🧰\",\n  \"Suggestion\": \"🙋🏻‍♀️\"\n}"
+      },
+      {
+        "name": "podOptions",
+        "value": "[\"All\", \"App Viewers Pod\", \"UI Builders Pod\", \"Team Managers Pod\", \"FE Coders Pod\", \"BE Coders Pod\", \"New Developers Pod\"]"
+      },
+      {
+        "name": "actionItems",
+        "value": "{\n  \"Needs Documentation\": \"📑❗️\",\n  \"Documented\": \"📑\",\n  \"Needs App\": \"💻❗️\",\n  \"App Built\": \"💻\",\n  \"Needs Product\": \"🧩❗️\",\n  \"Product Solved\": \"🧩\",\n  \"Needs JS Snippet\": \"📜❗️\",\n  \"JS Snippet Added\": \"📜\",\n  \"Add to How to do X\": \"🤔❗️\",\n  \"Added to How to do X\": \"🤔\",\n  \"Add to Forum\": \"📖❗️\",\n  \"Added to Forum\": \"📖\"\n}"
+      },
+      {
+        "name": "sortOptions",
+        "value": "{\n  \"GITHUB\": \"Most Github Votes\",\n  \"VOTES\": \"Most Upvotes\",\n  \"COMMENTORS\": \"Most Commentors\",\n  \"RECENT\": \"Most Recent\"\n}"
+      },
+      {
+        "name": "priorityOptions",
+        "value": "{\n  \"None\": \"#ffffff\",\n  \"Deprioritized\": \"#f0f0f0\",\n  \"Low\": \"#fff199\",\n  \"High\": \"##ffd182\",\n  \"Critical\": \"#ffb2a8\",\n  \"Released\": \"#d4ffbf\"\n}"
+      },
+      {
+        "name": "upvoteStatus",
+        "value": "{\n  \"Idle\": \"Idle\",\n  \"New\": \"New\",\n  \"🤷‍♀️ ⌛️\": \"Pending on User 🤷‍♀️ ⌛️\",\n  \"🦸‍♀️ ⌛️\": \"Pending on Aforce 🦸‍♀️ ⌛️\",\n  \"Github Issue\": \"Github Issue\",\n  \"Dev Inprogress\": \"Dev Inprogress\",\n  \"✅\": \"Resolved ✅\",\n  \"Workaround\": \"Workaround\",\n  \"None\": \"None\",\n  \"🧊\": \"Cold thread 🧊\"\n}"
+      },
+      {
+        "name": "platforms",
+        "value": "{\n  INTERCOM: 'https://cdn.worldvectorlogo.com/logos/intercom-2.svg',\n  DISCORD: 'https://cdn.worldvectorlogo.com/logos/discord-6.svg',\n  GITHUB: 'https://cdn.worldvectorlogo.com/logos/github-icon-1.svg',\n  APPSMITH_FORUM: 'https://i.ibb.co/7jhmdvh/Group-8554.png',\n  OTHERS: 'https://cdn.worldvectorlogo.com/logos/roadrunner.svg'\n}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "User Queries_IssueConfigs",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_6247fd1297dde1526a1318aa"
+}

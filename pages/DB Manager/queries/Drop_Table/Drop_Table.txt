@@ -1,0 +1,1 @@
+DROP TABLE aforce_global_issues

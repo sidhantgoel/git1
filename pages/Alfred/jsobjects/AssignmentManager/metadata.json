@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "AssignmentManager",
+    "pageId": "Alfred",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Alfred_AssignmentManager",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_62b1985040b36d162478c928"
+}

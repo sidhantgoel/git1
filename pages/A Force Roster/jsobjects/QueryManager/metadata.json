@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "QueryManager",
+    "pageId": "A Force Roster",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "podSlackIds",
+        "value": "{\n  \"FE Coders Pod\": \"S03FQU20P97\",\n  \"BE Coders Pod\": \"S03EXKHTUSK\",\n  \"New Developers Pod\": \"S03FBSS7X2N\",\n  \"UI Builders Pod\": \"S03F5LEAPCN\",\n  \"Team Managers Pod\": \"S03FC9AA9HQ\",\n  \"App Viewers Pod\": \"S03FC9LENFL\"\n}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "A Force Roster_QueryManager",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_6293aaabb4c51656bfeaf34a"
+}

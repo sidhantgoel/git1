@@ -1,0 +1,11 @@
+INSERT INTO aforce_roster
+  (hero_id, start_date, end_date)
+VALUES
+	{{ 
+		function() {
+			const arr = Utils_func.populateId();
+			return arr.map((row) => { 
+				return "(" + row["hero_id"] + "," + "'" + moment(row.StartDate, "DD/MM/YYYY").format("YYYY-MM-DD") + "','" + moment(row.EndDate, "DD/MM/YYYY").format("YYYY-MM-DD") + "')";
+			}).join(",")
+		}();
+	}}

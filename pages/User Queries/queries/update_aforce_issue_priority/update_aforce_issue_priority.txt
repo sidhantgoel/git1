@@ -1,0 +1,5 @@
+UPDATE public."global_issues"
+SET
+priority_status = '{{this.params.priorityStatus}}'
+WHERE
+id = {{this.params.issue_id}};

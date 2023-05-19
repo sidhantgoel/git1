@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "DetailsTabManager",
+    "pageId": "User Queries",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "tabs",
+        "value": "['Details', 'Upvote', 'PM Comments', 'New Upvote', 'New Comment']"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "User Queries_DetailsTabManager",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_624970f097dde1526a132171"
+}

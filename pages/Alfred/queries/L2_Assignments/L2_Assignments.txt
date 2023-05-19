@@ -1,0 +1,3 @@
+SELECT appsmith_team.email, count(appsmith_team.email)
+FROM aforce_roster inner join appsmith_team on aforce_roster.hero_id = appsmith_team.id WHERE aforce_roster.support_team = 'l2' and aforce_roster.start_date >= '2022-05-23' and appsmith_team.active = true
+GROUP BY appsmith_team.email ORDER BY count;

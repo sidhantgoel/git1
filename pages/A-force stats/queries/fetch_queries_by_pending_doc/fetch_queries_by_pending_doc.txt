@@ -1,0 +1,16 @@
+SELECT 
+	count(*),
+	tbl.unset_labels,
+	tbl.unset_states
+FROM (
+	select *, unnest(labels) as unset_labels, unnest(states) as unset_states
+  from aforce_issue_upvote as upvote
+	LEFT JOIN global_issues as issues ON upvote.issue_id = issues.id
+) tbl
+WHERE
+	tbl.unset_labels ilike '%pod%' AND
+	tbl.unset_states not ilike '' AND
+	(tbl.unset_states ilike '%Needs Documentation%' OR tbl.unset_states ilike '%Add to Forum%')
+GROUP BY
+	tbl.unset_labels,
+	tbl.unset_states

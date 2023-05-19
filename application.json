@@ -1,0 +1,96 @@
+{
+  "pages": [
+    {
+      "id": "deprecated_Roster",
+      "isDefault": false
+    },
+    {
+      "id": "A-force stats",
+      "isDefault": false
+    },
+    {
+      "id": "DB Manager",
+      "isDefault": false
+    },
+    {
+      "id": "Github Updates",
+      "isDefault": false
+    },
+    {
+      "id": "Alfred",
+      "isDefault": false
+    },
+    {
+      "id": "Timeline",
+      "isDefault": false
+    },
+    {
+      "id": "Home",
+      "isDefault": true
+    },
+    {
+      "id": "User Queries",
+      "isDefault": false
+    },
+    {
+      "id": "Sample Apps Manager",
+      "isDefault": false
+    },
+    {
+      "id": "Team Manager",
+      "isDefault": false
+    },
+    {
+      "id": "Product Report",
+      "isDefault": false
+    },
+    {
+      "id": "A Force Roster",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "clonedFromApplicationId": "620dafe36b4b1e154a3c4946",
+  "unpublishedApplicationDetail": {
+    "navigationSetting": {
+      "showNavbar": true,
+      "orientation": "side",
+      "navStyle": "sidebar",
+      "position": "static",
+      "itemStyle": "text",
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "showSignIn": true
+    }
+  },
+  "publishedApplicationDetail": {
+    "navigationSetting": {
+      "showNavbar": true,
+      "orientation": "side",
+      "navStyle": "sidebar",
+      "position": "static",
+      "itemStyle": "text",
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "showSignIn": true
+    }
+  },
+  "color": "#D6D1F2",
+  "icon": "medal",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 1,
+  "isManualUpdate": false,
+  "deleted": false
+}

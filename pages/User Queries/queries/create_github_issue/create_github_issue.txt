@@ -1,0 +1,15 @@
+{{
+ function () {
+	 let data = {
+		 	"title": doc_issue_title.text,
+			"body": doc_issue_body.text
+	 };
+	 if (doc_issue_assignees.selectedOptionValue.length > 0) {
+		 data["assignees"] = [doc_issue_assignees.selectedOptionValue, ]
+	 }
+	 if (doc_issue_labels.selectedOptionValues.length > 0) {
+	 	 data["labels"] = doc_issue_labels.selectedOptionValues;
+	 }
+	 return data;
+ }()
+}}

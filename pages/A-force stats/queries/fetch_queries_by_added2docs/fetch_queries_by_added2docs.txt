@@ -1,0 +1,20 @@
+select done, pending from (
+	SELECT
+			count(*) as pending,
+			1 as a
+	FROM
+			global_issues
+	WHERE global_issues.state != 'DELETED'
+		and 'Needs Documentation' = ANY(global_issues.states)
+) as T1 
+JOIN
+(
+	SELECT
+			count(*) as done,
+			1 as a
+	FROM
+			global_issues
+	WHERE global_issues.state != 'DELETED'
+		and 'Documented' = ANY(global_issues.states)
+) as T2
+on T1.a = T2.a;

@@ -1,0 +1,1 @@
+SELECT id FROM public."global_issues" WHERE author = {{appsmith.user.email}} ORDER BY created_at DESC LIMIT 1;

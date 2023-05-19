@@ -1,0 +1,2 @@
+ALTER TABLE {{Select1.selectedOptionValue}} 
+{{Table_Schema_Table.selectedRows.map(row => `DROP COLUMN IF EXISTS ${row.column_name}`).join('\n')}};

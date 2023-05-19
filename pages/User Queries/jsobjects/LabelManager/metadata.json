@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "LabelManager",
+    "pageId": "User Queries",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "User Queries_LabelManager",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_625e80a40d3d384069c6d519"
+}

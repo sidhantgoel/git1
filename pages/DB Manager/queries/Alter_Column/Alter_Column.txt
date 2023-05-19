@@ -1,0 +1,2 @@
+ALTER TABLE aforce_git_mapping 
+RENAME COLUMN github_id TO github_num;

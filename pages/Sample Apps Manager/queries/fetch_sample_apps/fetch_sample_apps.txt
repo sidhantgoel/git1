@@ -1,0 +1,5 @@
+SELECT * FROM public."sample_apps"
+WHERE "title" ilike '%{{Table1.searchText || ""}}%' {{Select1.selectedOptionValue != "All" ? "and \"categories\" ilike '%" + Select1.selectedOptionValue + "%'" : ''}}
+ORDER BY created_at DESC
+LIMIT {{Table1.pageSize}}
+OFFSET {{(Table1.pageNo - 1) * Table1.pageSize}};

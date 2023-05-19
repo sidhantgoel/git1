@@ -1,0 +1,1 @@
+SELECT pod FROM public."appsmith_team" group by pod;

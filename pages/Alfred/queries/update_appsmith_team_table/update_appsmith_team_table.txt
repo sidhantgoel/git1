@@ -1,0 +1,3 @@
+UPDATE aforce_roster
+  SET hero_id = {{this.params.hero_id}}
+  WHERE id = {{this.params.id}};

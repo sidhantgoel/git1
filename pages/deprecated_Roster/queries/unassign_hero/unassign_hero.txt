@@ -1,0 +1,1 @@
+delete from aforce_roster where start_date = {{List1.selectedItem.start_date}} and hero_id = {{fetch_hero.data[0].id}}

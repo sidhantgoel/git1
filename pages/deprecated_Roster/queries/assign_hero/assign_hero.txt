@@ -1,0 +1,1 @@
+insert into aforce_roster(hero_id, start_date, end_date, support_team, pod) values({{fetch_hero.data[0].id}}, {{List1.selectedItem.start_date}}, {{List1.selectedItem.end_date}}, {{this.params.team}}, {{this.params.pod}})

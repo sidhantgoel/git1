@@ -1,0 +1,2 @@
+DELETE FROM public."sample_apps"
+  WHERE "id" = {{Table1.triggeredRow.id}};

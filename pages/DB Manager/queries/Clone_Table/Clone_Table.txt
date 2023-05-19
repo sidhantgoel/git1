@@ -1,0 +1,2 @@
+CREATE TABLE {{Input1.text}} AS 
+TABLE {{Select1.selectedOptionValue}};

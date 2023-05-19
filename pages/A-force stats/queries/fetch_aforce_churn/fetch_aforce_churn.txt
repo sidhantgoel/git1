@@ -1,0 +1,15 @@
+select * from (
+	select count(*) as answered, DATE_TRUNC('day', upvote.created_at) as answered_day
+	from aforce_issue_upvote as upvote
+	where {{FiltersManager.getDateRangeFilter('upvote.created_at')}} and comm_status NOT IN ('Idle', '🦸‍♀️ ⌛️', '')
+	group by DATE_TRUNC('day', upvote.created_at)
+) as T1
+FULL OUTER JOIN (
+	select count(*) as not_answered, DATE_TRUNC('day', upvote.created_at) as not_answered_day
+	from aforce_issue_upvote as upvote
+	where {{FiltersManager.getDateRangeFilter('upvote.created_at')}} and comm_status IN ('Idle', '🦸‍♀️ ⌛️', '')
+	group by DATE_TRUNC('day', upvote.created_at)
+) as T2
+on T1.answered_day = T2.not_answered_day;
+
+

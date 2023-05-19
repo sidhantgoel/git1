@@ -1,0 +1,9 @@
+select
+		count(*),
+		type,
+		DATE_TRUNC('week', upvote.created_at) as week
+from
+    aforce_issue_upvote as upvote JOIN global_issues on upvote.issue_id = global_issues.id
+where upvote.created_at > '{{moment().startOf('week').subtract(12, 'weeks')}}' AND type != ''
+group by week, type
+order by week asc

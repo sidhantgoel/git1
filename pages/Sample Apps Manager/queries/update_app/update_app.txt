@@ -1,0 +1,9 @@
+UPDATE public."sample_apps" SET
+		"title" = '{{upsert_title.text}}',
+    "description" = '{{upsert_description.text}}',
+    "link" = '{{upsert_link.text}}',
+    "author" = '{{appsmith.user.email}}',
+		"status" = '{{upsert_status.selectedOptionValue}}',
+		"categories" = '{{upsert_category.selectedOptionValue}}',
+		"tags" = '{{upsert_tags.selectedOptionValues.join(',')}}'
+WHERE "id" = {{Table1.selectedRow.id}};

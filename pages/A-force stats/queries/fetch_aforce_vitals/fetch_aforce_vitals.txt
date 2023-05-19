@@ -1,0 +1,19 @@
+select * from
+(select
+		count(*) as backlog,
+		DATE_TRUNC('day', upvote.created_at) as day_backlog
+from
+    aforce_issue_upvote as upvote
+where
+		{{FiltersManager.getDateRangeFilter('upvote.created_at')}} AND {{FiltersManager.getBacklogStatusFilter('comm_status')}}
+group by day_backlog
+order by day_backlog asc) as T1 FULL OUTER JOIN
+(select
+		count(*) as resolved,
+		DATE_TRUNC('day', upvote.created_at) as day
+from
+    aforce_issue_upvote as upvote
+where
+		{{FiltersManager.getDateRangeFilter('upvote.created_at')}} AND {{FiltersManager.getResolvedStatusFilter('comm_status')}}
+group by day
+order by day asc) as T2 on T1.day_backlog = T2.day;

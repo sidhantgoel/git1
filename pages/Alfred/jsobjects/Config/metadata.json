@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "Config",
+    "pageId": "Alfred",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "pods",
+        "value": "[\"New Developers Pod\", \"Team Managers Pod\", \"BE Coders Pod\", \"FE Coders Pod\", \"App Viewers Pod\", \"UI Builders Pod\"]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Alfred_Config",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_6284d5f2309fd93a9bf13e03"
+}

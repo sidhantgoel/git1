@@ -1,0 +1,2 @@
+ALTER TABLE aforce_git_mapping
+ADD COLUMN associated_doc INTEGER[];

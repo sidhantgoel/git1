@@ -1,0 +1,48 @@
+{
+  "unpublishedCollection": {
+    "name": "PageConfig",
+    "pageId": "A-force stats",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "issueTypes",
+        "value": "{\n  \"All\": \"\",\n  \"Feature\": \"🧩\",\n  \"Bug\": \"🐞\",\n  \"Question\": \"❓\",\n  \"Troubleshooting\": \"🧰\",\n  \"Suggestion\": \"🙋🏻‍♀️\"\n}"
+      },
+      {
+        "name": "actionItems",
+        "value": "{\n  \"Needs Documentation\": \"📑❗️\",\n  \"Documented\": \"📑\",\n  \"Needs App\": \"💻❗️\",\n  \"App Built\": \"💻\",\n  \"Needs Product\": \"🧩❗️\",\n  \"Product Solved\": \"🧩\",\n  \"Needs JS Snippet\": \"📜❗️\",\n  \"JS Snippet Added\": \"📜\",\n  \"Add to How to do X\": \"🤔❗️\",\n  \"Added to How to do X\": \"🤔\",\n  \"Add to Forum\": \"📖❗️\",\n  \"Added to Forum\": \"📖\"\n}"
+      },
+      {
+        "name": "sortOptions",
+        "value": "{\n  \"GITHUB\": \"Most Github Votes\",\n  \"VOTES\": \"Most Upvotes\",\n  \"COMMENTORS\": \"Most Commentors\",\n  \"RECENT\": \"Most Recent\"\n}"
+      },
+      {
+        "name": "priorityOptions",
+        "value": "{\n  \"None\": \"#ffffff\",\n  \"Deprioritized\": \"#f0f0f0\",\n  \"Low\": \"#fff199\",\n  \"High\": \"##ffd182\",\n  \"Critical\": \"#ffb2a8\",\n  \"Released\": \"#d4ffbf\"\n}"
+      },
+      {
+        "name": "upvoteStatus",
+        "value": "{\n  \"Idle\": \"#ffb2a8\",\n  \"New\": \"#f0f0f0\",\n  \"🤷‍♀️ ⌛️\": \"#fff199\",\n  \"🦸‍♀️ ⌛️\": \"#ffd182\",\n  \"Github Issue\": \"#e0c4ff\",\n  \"Dev Inprogress\": \"#96fcff\",\n  \"✅\": \"#d4ffbf\",\n  \"Workaround\": \"#87a5ff\",\n  \"None\": \"#ffffff\"\n}"
+      },
+      {
+        "name": "platforms",
+        "value": "{\n  INTERCOM: 'https://cdn.worldvectorlogo.com/logos/intercom-2.svg',\n  DISCORD: 'https://cdn.worldvectorlogo.com/logos/discord-6.svg',\n  GITHUB: 'https://cdn.worldvectorlogo.com/logos/github-icon-1.svg',\n  APPSMITH_FORUM: 'https://i.ibb.co/7jhmdvh/Group-8554.png',\n  OTHERS: 'https://cdn.worldvectorlogo.com/logos/roadrunner.svg'\n}"
+      },
+      {
+        "name": "podOptions",
+        "value": "[\"All\", \"App Viewers Pod\", \"UI Builders Pod\", \"Team Managers Pod\", \"FE Coders Pod\", \"BE Coders Pod\", \"New Developers Pod\"]"
+      },
+      {
+        "name": "timelineOptions",
+        "value": "[\"All\", \"Last Week\", \"Last Month\", \"Last 3 Months\", \"Last 6 Months\", \"Last Year\"]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "A-force stats_PageConfig",
+  "deleted": false,
+  "gitSyncId": "62320bc2f1c0af1ceded5d2d_624de5be51a8863d6c404d39"
+}

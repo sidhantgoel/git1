@@ -1,0 +1,2 @@
+INSERT INTO public."aforce_git_mapping" ("author", "issue_id", "github_num")
+  VALUES ({{appsmith.user.email}}, {{this.params.issue_id}}, {{this.params.github_num}});
